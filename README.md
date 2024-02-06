@@ -9,5 +9,5 @@ Random GIF Generator to have some fun!
 
 # Component Hierarchy
 
-![My Desktop View](https://i.imgur.com/RHyHEaA.png)
+![My Desktop View](https://i.imgur.com/WalogVO.png)
 
