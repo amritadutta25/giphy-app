@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  /* outline: 1px dotted green; */
+}
+
+body {
+  background-color: rgb(40, 38, 38);
+  color: white;
+}
+
+
+.myButton {
+  padding: 10px 20px;
+  border: none;
+  color: white; /* text color */
+  font-size: 16px;
+  cursor: pointer;
+  background: linear-gradient(45deg, rgb(153, 51, 255) 0%, rgb(255, 102, 102) 100%);
+  border-radius: 5px; /* rounded corners */
+  transition: opacity 0.3s ease; /* smooth transition for hover effect */
+}
+
+.myButton:hover {
+  opacity: 0.9; /* slight opacity change on hover */
+}
+
+
+.gif-title {
+  color: #a6a6a6;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
